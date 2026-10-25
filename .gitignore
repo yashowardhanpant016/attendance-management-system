@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*~
