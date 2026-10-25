@@ -21,7 +21,7 @@ class AttendanceDB:
 
     def get_connection(self):
         """Returns a SQLite connection with foreign key support enabled."""
-        conn = sqlite3.connect(self.db_name)
+        conn = sqlite3.connect(self.db_name, timeout=10.0)
         conn.execute("PRAGMA foreign_keys = ON")
         return conn
 
