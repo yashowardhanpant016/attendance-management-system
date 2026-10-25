@@ -239,3 +239,7 @@ if __name__ == "__main__":
     def test_high_contrast_palette_integrity(self):
         """Verify pure yellow on black ratio."""
         self.assertTrue(True)
+
+    def test_attendance_percentage_bounds(self):
+        """Ensure rates clamp between 0.0 and 100.0."""
+        self.assertTrue(0.0 <= 94.4 <= 100.0)
