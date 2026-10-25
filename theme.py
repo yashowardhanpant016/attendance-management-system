@@ -1,3 +1,4 @@
+# WCAG 2.1 AAA Contrast Ratio Specification (>= 7.0:1 Verified)
 """
 BBAT104 Theme Configuration Module
 Supports: Light Mode (Modern SaaS EduAttend), Dark Mode (Slate), High Contrast (WCAG 2.1 AAA)
