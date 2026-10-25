@@ -478,3 +478,5 @@ def get_fonts(scale_key_or_dict=None):
 def get_treeview_rowheight(font_size=12):
     """Dynamically calculates balanced row height for treeview rows."""
     return max(32, int(font_size * 2.3))
+FOCUS_RING_WIDTH = 2
+HIGH_CONTRAST_BORDER_WIDTH = 3
