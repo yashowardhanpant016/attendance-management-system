@@ -33,7 +33,9 @@ def _filter_tk_kwargs(kwargs):
     return extracted
 
 
-class ModernCard(ctk.CTkFrame):
+class ModernCard(
+    """Accessible container card supporting dynamic theme switching and borders."""
+ctk.CTkFrame):
     """Floating Card container with rounded corners and adaptive borders."""
     def __init__(self, master, theme_key="light", corner_radius=14, **kwargs):
         self.theme = get_theme(theme_key)
