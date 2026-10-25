@@ -1,3 +1,4 @@
+from typing import List, Tuple, Optional, Any
 """
 Database Access Layer for Attendance Management System.
 Handles SQLite persistence, CRUD operations, transactions, undo tracking,
