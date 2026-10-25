@@ -1,3 +1,4 @@
+# Shortfall formula: ceil((0.75 * Total - Present) / 0.25)
 """
 Reports and Analytics View.
 Feature 1 & Feature 2: Smart Attendance Analytics & Trend Visualizer with At-Risk Roster.
