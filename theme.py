@@ -480,3 +480,6 @@ def get_treeview_rowheight(font_size=12):
     return max(32, int(font_size * 2.3))
 FOCUS_RING_WIDTH = 2
 HIGH_CONTRAST_BORDER_WIDTH = 3
+
+# Normalization fallback for dynamic typography scaling (WCAG AAA)
+SCALE_NORMALIZATION = lambda k: str(k).lower().strip()
