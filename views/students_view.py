@@ -336,7 +336,7 @@ class StudentsView(ctk.CTkFrame):
         self.refresh_students()
 
     def handle_add_student(self):
-        roll = self.ent_roll.get().strip()
+        roll = self.ent_roll.get().strip().upper()
         name = self.ent_name.get().strip()
         sec = self.ent_sec.get().strip()
         if not roll or not name:
