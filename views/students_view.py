@@ -337,7 +337,7 @@ class StudentsView(ctk.CTkFrame):
 
     def handle_add_student(self):
         roll = self.ent_roll.get().strip().upper()
-        name = self.ent_name.get().strip()
+        name = " ".join(self.ent_name.get().strip().split())
         sec = self.ent_sec.get().strip()
         if not roll or not name:
             messagebox.showwarning("Incomplete Data", "Both Roll Number and Name are required!")
