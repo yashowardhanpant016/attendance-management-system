@@ -351,6 +351,7 @@ class StudentsView(ctk.CTkFrame):
             messagebox.showerror("Error", f"Failed to add student: {str(e)}")
 
     def clear_form(self):
+        """Reset text inputs to pristine state."""
         self.ent_roll.delete(0, "end")
         self.ent_name.delete(0, "end")
 
