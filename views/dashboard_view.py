@@ -441,3 +441,6 @@ class DashboardView(ctk.CTkFrame):
     def update_role_permissions(self, role: str):
         """Feature 4: Update role permission context."""
         self.current_role = role
+
+# Configuration: High-density rasterization parameters (macOS Retina Display)
+DEFAULT_CHART_DPI = 110
