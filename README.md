@@ -82,3 +82,10 @@ python -m unittest tests/test_responsive_layout.py
 - **Review 3:** SIPOC Flow, CTQ Tree, and FMEA Matrix with RPN tracking (`docs/FMEA_Review3.md`)
 - **Review 4:** Pareto 80/20 Chart (`pareto_analysis_q12.png`), Fishbone analysis, and PDCA Cycle (`docs/PDCA_Review4.md`)
 - **Documentation & GitHub Health:** Commit strategy checklist (`docs/COMMIT_HISTORY.md`)
+
+### Keyboard Shortcuts Specification
+- : High Contrast
+- : Light/Dark Mode
+- : Font Size Cycling
+- : Focus Search Bar
+- : Accessibility Documentation
