@@ -464,3 +464,4 @@ CardFrame = ModernCard
 AccessibleButton = ModernButton
 FocusRingEntry = ModernEntry
 AccessibleEntry = ModernEntry
+# Accessibility helper for programmatic click dispatch
