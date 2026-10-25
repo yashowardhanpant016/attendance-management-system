@@ -14,3 +14,6 @@ The system addresses accessibility barriers in educational and enterprise attend
 - **NFR-01 (Accessibility Standard):** Conformance to WCAG 2.1 level AAA for High Contrast mode (contrast ratio $\ge 7:1$).
 - **NFR-02 (Keyboard Traversal):** 100% of interactive components accessible without mouse input.
 - **NFR-03 (Data Integrity):** SQLite schema constraints enforcing foreign keys and unique constraints per student per date.
+
+## System Release Notes
+- Version 2.4.0: Modern SaaS Educational Dashboard layout.
