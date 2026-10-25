@@ -384,6 +384,7 @@ class AttendanceApp(ctk.CTk):
         self.bind("<Command-Z>", lambda e: self.shortcut_undo())
 
         # Accessibility Help Reference Modal (F1)
+        self.bind("<Escape>", lambda e: None)
         self.bind("<F1>", lambda e: self.show_accessibility_guide())
 
     def shortcut_focus_add(self):
